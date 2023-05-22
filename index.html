@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -25,13 +28,20 @@
             <nav id="nav" class="">
               <ul id="links">
                 <li>
-                  <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
                 </li>
                 <li>
                   <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
                 </li>
                 <li>
-                  <a href="#experiencia" onclick="seleccionar(this)">EXPERIENCIA LABORAL</a>
+                  <a href="#experiencia" onclick="seleccionar(this)"
+                    >EXPERIENCIA LABORAL</a
+                  >
                 </li>
                 <li>
                   <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
@@ -49,13 +59,16 @@
 
             <!-- ICONOS DEL MENU RESPONSIVE -->
             <div class="redes">
-              <a href="https://www.linkedin.com/in/leandro-costas-schettini/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/leandro-costas-schettini/"
+                target="_blank"
+              >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#" target="_blank">
-                <i class="fa-brands fa-square-instagram"></i>
+              <a href="https://github.com/leandrocostas" target="_blank">
+                <i class="fa-brands fa-github"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://www.facebook.com/lea.costasschettini/" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </div>
@@ -75,7 +88,7 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi">
       <div class="contenedor-foto">
-        <img src="images/foto.jpg" alt="" />
+        <img src="images/foto.jpg" alt="foto-inicio" />
       </div>
       <div class="sobremi">
         <p class="titulo-seccion">Sobre Mi</p>
@@ -220,7 +233,6 @@
           <div id="bd" class=""></div>
         </div>
       </div>
-
     </div>
 
     <!-- SECCION PORTFOLIO -->
@@ -229,7 +241,7 @@
       <div class="fila">
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="/images/estudio-fernandez.JPG" alt="" srcset="">
+          <img src="./images/estudio-fernandez.JPG" alt="" srcset="" />
           <div class="info">
             <h4>Estudio Fernandez</h4>
             <p>Diseño Web</p>
@@ -238,7 +250,7 @@
 
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="/images/listado-personas.JPG" alt="" srcset="">
+          <img src="./images/listado-personas.JPG" alt="" srcset="" />
           <div class="info">
             <h4>Listado de Personas</h4>
             <p>Diseño Web</p>
@@ -247,19 +259,18 @@
 
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="/images/app-presupuesto.JPG" alt="" srcset="">
+          <img src="./images/app-presupuesto.JPG" alt="" srcset="" />
           <div class="info">
             <h4>App Presupuesto Personal</h4>
             <p>Diseño Web</p>
           </div>
         </div>
-
       </div>
 
       <div class="fila">
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="/images/estudio-fernandez.JPG" alt="" srcset="">
+          <img src="./images/estudio-fernandez.JPG" alt="" srcset="" />
           <div class="info">
             <h4>Descripcion del Proyecto</h4>
             <p>Diseño Web</p>
@@ -268,7 +279,7 @@
 
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="/images/listado-personas.JPG" alt="" srcset="">
+          <img src="./images/listado-personas.JPG" alt="" srcset="" />
           <div class="info">
             <h4>Descripcion del Proyecto</h4>
             <p>Diseño Web</p>
@@ -277,16 +288,13 @@
 
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="/images/reloj-digital.JPG" alt="" srcset="">
+          <img src="./images/reloj-digital.JPG" alt="" srcset="" />
           <div class="info">
             <h4>Descripcion del Proyecto</h4>
             <p>Diseño Web</p>
           </div>
         </div>
       </div>
-
-      
-
     </section>
 
     <!-- SECCION CONTACTO -->
@@ -295,16 +303,31 @@
       <div class="contenedor-form">
         <form action="">
           <div class="fila mitad">
-          <input type="text" placeholder="Nombre Completo" class="input-mitad">
-          <input type="text" placeholder="Direccion de Email" class="input-mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo"
+              class="input-mitad"
+            />
+            <input
+              type="text"
+              placeholder="Direccion de Email"
+              class="input-mitad"
+            />
           </div>
           <div class="fila">
-            <input type="text" placeholder="Asunto" class="input-full">
+            <input type="text" placeholder="Asunto" class="input-full" />
           </div>
           <div class="fila">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escribir mensaje aqui..." class="input-full"></textarea>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Escribir mensaje aqui..."
+              class="input-full"
+            ></textarea>
           </div>
-          <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
         </form>
       </div>
     </section>
@@ -312,22 +335,23 @@
     <!-- SECCION FOOTER -->
     <footer>
       <p>Todos los derechos reservados - 2023</p>
-  
-        <div class="redes">
-          <a href="https://www.linkedin.com/in/leandro-costas-schettini/" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i class="fa-brands fa-square-instagram"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-        </div>
 
+      <div class="redes">
+        <a
+          href="https://www.linkedin.com/in/leandro-costas-schettini/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/leandrocostas" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com/lea.costasschettini/" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
     </footer>
 
     <script src="./js/script.js"></script>
-
   </body>
 </html>

@@ -287,7 +287,7 @@ html {
 /* SECCION DE SKILLS */
 
 .contenedor-skills{
-    background: linear-gradient(#c09f9fcc, rgba(68, 45, 45, 0.8)), url(/images/fondo-skills.jpg);
+    background: linear-gradient(#c09f9fcc, rgba(68, 45, 45, 0.8)), url(../images/fondo-skills.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
