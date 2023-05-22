@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>LCS 👦💻 Desarrollador Web</title>
+  </head>
+
+  <body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>/LCS/</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a>
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#experiencia" onclick="seleccionar(this)">EXPERIENCIA LABORAL</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- ICONOS DEL MENU RESPONSIVE -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- ICONOS DEL MENU RESPONSIVE -->
+            <div class="redes">
+              <a href="https://www.linkedin.com/in/leandro-costas-schettini/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Soy <span>Leandro Costas Schettini</span>, Desarrollador Web.</h2>
+          <p class="descripcion">
+            Fullstack Developer y Licenciado en Administración en la UBA.
+          </p>
+          <a href="#portfolio">Ir al Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="images/foto.jpg" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>Leandro Costas</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p>
+          Soy Fullstack Developer y Licenciado en Administración en la UBA.
+          Actualmente me encuentro cursando el Bootcamp de Henry y la
+          Licenciatura en Sistemas de la Información en la UBA. Poseo sólida
+          experiencia en el área de Finanzas de empresas multinacionales, por lo
+          que pude formar un perfil analítico y muy proactivo.
+        </p>
+        <p>
+          Tengo competencias en el desarrollo de sitios y aplicaciones web a
+          través de HTML, CSS, Bootstrap, Javascript, React Js, Redux. Me
+          motivan los desafíos y disfruto de poder agregar valor a los objetivos
+          que se me presentan, sumando ideas innovadoras y que potencien el
+          resultado.
+        </p>
+        <a href="#">Descargar CV</a>
+      </div>
+    </section>
+
+    <!-- SECCION EXPERIENCIA -->
+    <section id="experiencia">
+      <h3 class="titulo-seccion">EXPERIENCIA LABORAL</h3>
+      <div class="fila">
+        <div class="experiencia">
+          <span class="icono"><i class="fa-solid fa-laptop-file"></i></span>
+          <h4>Sr Financial Analyst</h4>
+          <hr />
+          <h3>Syneos Health (abr. 2021 - actualidad)</h3>
+          <hr />
+          <ul class="experiencia-tag">
+            <li>
+              Elaboración de reportes financieros mensuales. Análisis e
+              identificación de ineficiencias y ajuste de costos.
+            </li>
+            <li>
+              Análisis financiero y de solicitudes ad hoc para los Project
+              Managers y Project Directors.
+            </li>
+            <li>
+              Coordinación y revisión con los líderes de diversos proyectos de
+              USA.
+            </li>
+          </ul>
+        </div>
+        <div class="experiencia">
+          <span class="icono"><i class="fa-solid fa-laptop-file"></i></span>
+          <h4>Sr Financial Analyst</h4>
+          <hr />
+          <h3>Accenture Argentina (nov. 2017 - abr.2021)</h3>
+          <hr />
+          <ul class="experiencia-tag">
+            <li>
+              Análisis y soporte de gestión financiera de proyectos tecnológicos
+              a nivel global.
+            </li>
+            <li>
+              Elaboración de presupuestos y proyecciones. Actualización de
+              Forecast y seguimiento del mismo con el commercial team. Monitoreo
+              y análisis de resultados y desvíos (Actual vs Forecast).
+            </li>
+            <li>
+              Comunicación directa vía e-mail y conference calls con los
+              ejecutivos de contratos a nivel global.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="experiencia">
+          <span class="icono"><i class="fa-solid fa-laptop-file"></i></span>
+          <h4>Working Holiday Experience - Australia</h4>
+          <hr />
+          <h3>Working Holiday Australia (feb. 2016 - ago.2017)</h3>
+          <hr />
+          <ul class="experiencia-tag">
+            <li>Periodo de tiempo en el cual viaje y trabajé en Australia.</li>
+          </ul>
+        </div>
+        <div class="experiencia">
+          <span class="icono"><i class="fa-solid fa-laptop-file"></i></span>
+          <h4>Analista Contable Sr</h4>
+          <hr />
+          <h3>Say Hueque Argentina Journeys (jul. 2012 - feb.2016)</h3>
+          <hr />
+          <ul class="experiencia-tag">
+            <li>Liquidación de sueldos y jornales.</li>
+            <li>
+              Atención directa y telefónica con proveedores locales y del
+              exterior - Control de liquidaciones y realización de pagos -
+              Realización de cheques y transferencias bancarias - Pagos por
+              Comercio Exterior.
+            </li>
+            <li>Análisis de control de costos de la empresa.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <div class="contenedor-skills" id="skills">
+      <h3>SKILLS</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Html & Css</p>
+          <span class="porcentaje">85%</span>
+        </div>
+        <div class="barra">
+          <div id="html" class=""></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Javascript</p>
+          <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+          <div id="js" class=""></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>React</p>
+          <span class="porcentaje">75%</span>
+        </div>
+        <div class="barra">
+          <div id="react" class=""></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Base de Datos</p>
+          <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+          <div id="bd" class=""></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio">
+      <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/images/estudio-fernandez.JPG" alt="" srcset="">
+          <div class="info">
+            <h4>Estudio Fernandez</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/images/listado-personas.JPG" alt="" srcset="">
+          <div class="info">
+            <h4>Listado de Personas</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/images/app-presupuesto.JPG" alt="" srcset="">
+          <div class="info">
+            <h4>App Presupuesto Personal</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/images/estudio-fernandez.JPG" alt="" srcset="">
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/images/listado-personas.JPG" alt="" srcset="">
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/images/reloj-digital.JPG" alt="" srcset="">
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contactame!</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+          <input type="text" placeholder="Nombre Completo" class="input-mitad">
+          <input type="text" placeholder="Direccion de Email" class="input-mitad">
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Asunto" class="input-full">
+          </div>
+          <div class="fila">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escribir mensaje aqui..." class="input-full"></textarea>
+          </div>
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+      </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>Todos los derechos reservados - 2023</p>
+  
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/leandro-costas-schettini/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>
