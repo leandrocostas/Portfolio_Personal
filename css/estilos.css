@@ -296,6 +296,16 @@ html {
     text-align: center;
 }
 
+.contenedor-skills h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+    text-align: center;
+}
+
 .contenedor-skills .skill{
     max-width: 600px;
     margin: 30px auto;
