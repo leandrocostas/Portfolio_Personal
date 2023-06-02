@@ -224,7 +224,7 @@ html {
 #experiencia .titulo-seccion{
     font-size: 28px;
     text-transform: uppercase;
-    color:#111135;
+    color: #ff5080;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -405,7 +405,7 @@ html {
 #portfolio .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #ff5080;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -465,7 +465,7 @@ html {
 #contacto .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #ff5080;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
